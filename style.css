@@ -1,0 +1,138 @@
+/*
+    Colors :
+    Grey : #838383
+    Brown : #ad9d9d
+    Pink : #d9adad
+    Light Pink : #fccbcb
+*/
+body {
+    margin: 0;
+    background-color: #838383;
+}
+header {
+    height: 213px;
+    background-color: #fccbcb;
+    border-bottom: 2px solid #ad9d9d;
+    text-align: center;
+    margin-top: -134px;
+    z-index: 10
+}
+header h1 {
+    color: #d9adad;
+    font-size: 200px;
+    font-family: "Anjelica Script";
+}
+.info {
+    padding: 30px 165px 50px ;
+    z-index: 9;
+    border-bottom: 2px solid #ad9d9d;
+}
+.info h1 {
+    font-family: "Anjelica Script";
+    color: #d9adad;
+    font-size: 80px
+}
+.info p {
+    font-family: "Fendysa";
+    color: #fccbcb;
+    text-transform: capitalize;
+    font-size: 43px;
+    margin: 0
+}
+.time {
+    border-bottom: 2px solid #ad9d9d;
+}
+.time table {
+    position: relative;
+    left: 300px;
+    padding: 50px;
+    text-align: center
+}
+.time td, th {
+    font-family: "Fendysa";
+    font-size: 25px;
+    padding: 10px;
+    border: 2px solid #ad9d9d;
+    color: #fccbcb
+}
+.skills {
+    font-family: "Fendysa";
+    padding: 30px 200px;
+    border-bottom: 2px solid #ad9d9d;
+}
+.skills h1 {
+    color: #d9adad;
+    font-size: 60px
+}
+.skills ul li {
+    color: #fccbcb;
+    font-size: 30px;
+    font-weight: bold
+}
+.entertainment {
+    font-family: "Fendysa";
+    position: relative;
+    left: 300px;
+    right: 300px;
+    word-wrap: break-word;
+    width: 500px;
+    border-bottom: 2px solid #ad9d9d;
+}
+.title {
+    color: #d9adad;
+    font-size: 40px
+}
+.para {
+    font-size: 30px;
+    color: #fccbcb;
+}
+.sh {
+    position: relative;
+    top: 30px
+}
+.sh-rh {
+    position: relative;
+    top: 30px
+}
+.img-bb {
+    width: 180px;
+    height: 240px;
+    position: relative;
+    border-radius: 50px;
+    z-index: 2
+}
+.img-sh {
+    width: 180px;
+    height: 240px;
+    position: relative;
+    border-radius: 50px;
+    top: 30px;
+    right: 30px;
+    z-index: 1
+}
+.img-div {
+    margin: 40px auto;
+    overflow: hidden;
+    border: 2px solid #ad9d9d;
+    border-radius: 100px;
+    width: 300px;
+    height: 280px;
+}
+.img-div img {
+    position: relative;
+    right: 55px
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    height: 50px
+}
+footer img {
+    padding: 10px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 480px
+}
